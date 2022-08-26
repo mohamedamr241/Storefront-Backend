@@ -29,24 +29,6 @@ run this command for dependency managment: npm i
 
 we start first by installing pg and dotenv using npm and then creating .env file to put in it all the senstive information to be hidden and including .env in .gitignore.
 
-```bash
-# .env
-ENV=dev (for development)
-ENV=test (for testing)
-PORT=3000
-# then, setting the database connection
-POSTGRES_HOST=127.0.0.1
-POSTGRES_DB=my_new_database
-POSTGRES_TEST_DB=my_new_database_test
-POSTGRES_USER=mohamed
-POSTGRES_PASSWORD=mohamed123
-DB_PORT=5432
-# encryption of password and token
-BCRYPT_PASSWORD=speak-friend-and-enter
-SALT_ROUNDS=10
-TOKEN_SECRET=hello123
-```
-
 ## setup and connect to the database
 
 - installing Pool: npm i Pool
